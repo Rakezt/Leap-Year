@@ -5,7 +5,7 @@ var potato = "potato"
 
 console.log("Welcome " + (userName) + ", to the bandhar club");
 
-var userDOB = readlineSync.question("please input year of birth plaese.....")
+var userDOB = readlineSync.question("please input year of birth please.....")
 
 if ((userDOB % 4 === 0) && (userDOB % 100 === !0) || (userDOB % 400 === 0)) {
   console.log(chalk.greenBright("You are born on a leap year"));
